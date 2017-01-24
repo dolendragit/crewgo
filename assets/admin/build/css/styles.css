@@ -1,0 +1,98 @@
+.help-block {
+    color: red;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+ul.days{
+	list-style-type: none;
+}
+
+ul.days li{
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+
+.row .added{
+	margin-top: 10px;
+}
+
+.row .parentqualification{
+	margin-top: 10px;
+}
+
+.row .parenttraining{
+	margin-top: 10px;
+}
+
+ul.shifts{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.shifts li{
+	margin: 22px 0px;
+	font-weight: 600;
+}
+
+
+.row .content-wrapper{
+	margin:15px 0 0 0;
+}
+
+
+ul.shift-type{
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.shift-type li {
+    margin: 10px 0px;
+}
+
+
+.date-holder{
+	max-width: 200px;
+    margin: 5px 0px 0px 8px;
+}
+
+
+.content-wrapper select.form-control{
+	height: 27px;
+    padding: 0px 8px;
+    font-size: 12px;
+}
+
+.content-wrapper label{
+	font-size: 12px;
+}
+
+
+.content-wrapper .heading{
+	margin: 0;
+}
+
+
+label.error {
+    color: red;
+    font-weight: normal;
+}
+
+.mandatory{
+	color: red;
+}
+
+
+
+
+
+
+
+

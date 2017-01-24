@@ -1,0 +1,42 @@
+
+{
+            "description": "Here goes some notes.",
+            "job_title":  "Test Title",
+            "job_full_address":  "Greenwich Park",
+            "meeting_full_address": "Gundary",
+            "meeting_lat": "-34.440000000",
+            "meeting_long": "149.960000000",
+            "skills": [
+                {
+                    "skill_id":1,
+                    "level_id":2,
+                    "required_number":2,
+                    "start_time": "1483945200",
+                    "end_time": "1483974000",
+                    "breaks": [
+                        {
+                            "start_time": "1483959600",
+                            "end_time": "1483960500"
+                        },
+                        {
+                            "start_time": "1483966800",
+                            "end_time": "1483967700"
+                        }
+                    ]
+                },
+                {
+                    "skill_id":3,
+                    "level_id":3,
+                    "required_number":3,
+                    "start_time": "1483948800",
+                    "end_time": "1483974000",
+                    "breaks": [
+                        {
+                            "start_time": "1483966800",
+                            "end_time": "1483967700"
+                        }
+                    ]
+                }
+            ],
+            "attributes":"1,2"
+        }

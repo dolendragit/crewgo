@@ -1,0 +1,20 @@
+
+0=%7B%0A+%5B%0A++%22skill_id%22%3A+1%2C%0A++%22level_id%22%3A1%0A++%22qualifications%22%3A+%5B%0A++++++++++++++++%7B%22qualification%22%3A1%7D%2C%0A+++++++++++%5D%2C%0A%5D%0A%7D%0A+++++
+
+0=%7B%0A+%5B%0A++%22skill_id%22%3A+1%2C%0A++%22level_id%22%3A1%0A++%22qualifications%22%3A+%5B%0A++++++++++++++++%7B%22qualification%22%3A1%7D%2C%0A+++++++++++%5D%2C%0A%5D%0A%7D%0A+++++
+
+--------------------------9830017c8466d519
+Content-Disposition: form-data; name="0"
+
+{
+ [
+  "skill_id": 1,
+  "level_id":1
+  "qualifications": [
+                {"qualification":1},
+           ],
+]
+}
+     
+--------------------------9830017c8466d519--
+

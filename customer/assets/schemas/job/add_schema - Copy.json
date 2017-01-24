@@ -1,0 +1,74 @@
+{
+    "title": "Job Schema",
+    "type": "object",
+    "properties": {
+        "authentication_key": {
+            "type": "string"
+        },
+        "notes": {
+            "type": "string"
+        },
+        "job_full_address": {
+            "type": "string"
+        },
+        "job_street": {
+            "type": "string"
+        },
+        "job_postcode_id": {
+            "type": "string"
+        },
+        "meeting_full_address": {
+            "type": "string"
+        },
+        "meeting_street": {
+            "type": "string"
+        },
+        "meeting_postcode_id": {
+            "type": "string"
+        },
+        "skills": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "minItems": 1,
+                "properties": {
+                    "skill_id": {"type": "number"},
+                    "level_id": {"type": "number"},
+                    "quantity": {"type": "number"},
+                    "date": {"type": "string"},
+                    "start_time": {"type": "string"},
+                    "end_time": {"type": "string"},
+                    "breaks": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "start_time": {"type": "string"},
+                                "end_time": {"type": "string"}
+                            },
+                            "required": ["start_time","end_time"]
+                        }
+                    }
+                },
+                "required": ["skill_id", "level_id", "quantity","date","start_time","end_time"]
+            }
+        },
+        "dates": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string",
+                "properties": {
+                    
+                },
+                "uniqueProperties": true,
+                "required": ["",""]
+            }
+        }
+    },
+    "required": ["job_full_address","meeting_full_address","meeting_street","meeting_postcode_id","dates","skills"]
+}
+
+

@@ -1,0 +1,58 @@
+{
+    "title": "Job Schema",
+    "type": "object",
+    "properties": {
+        "job_title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "job_full_address": {
+            "type": "string"
+        },
+        "meeting_full_address": {
+            "type": "string"
+        },
+        "meeting_lat": {
+            "type": "string"
+        },
+         "meeting_long": {
+            "type": "string"
+        },
+        "skills": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "minItems": 1,
+                "properties": {
+                    "skill_id": {"type": "number","minimum": 1},
+                    "level_id": {"type": "number","minimum": 1},
+                    "required_number": {"type": "number","minimum": 1},
+                    "start_time": {"type": "string","format":"timestamp"},
+                    "end_time": {"type": "string","format":"timestamp"},
+                    "breaks": {
+                        "type": "array",
+                        "minItems": 0,
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "start_time": {"type": "string","format":"timestamp"},
+                                "end_time": {"type": "string","format":"timestamp"}
+                            },
+                            "required": ["start_time","end_time"]
+                        }
+                    }
+                },
+                "required": ["skill_id", "level_id", "required_number","start_time","end_time"]
+            }
+        },
+         "attributes": {
+                "type": "string"
+        }
+    },
+    "required": ["job_title","job_full_address","meeting_full_address","skills"]
+}
+
+

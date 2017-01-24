@@ -1,0 +1,79 @@
+#form_errors_msg{
+text-align:left;
+}
+.closebtn {
+    margin-left: 15px;
+     
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.modal-content{
+	 width:500px;         
+}
+ .admin-logo{
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+  width:165px;
+  height:43px;
+  opacity: 1; border-radius: 0px;
+ }
+ .after-logo-text{
+     font-size:30px;
+ }
+ .icheckbox_flat-green{
+    margin-top:5px;
+ }
+ .notes{
+     padding-bottom :10px;
+     color:#ccc;
+ }
+  .input-group[class*="col-"] {
+    padding-right: 0;
+  padding-left: 0;
+}
+.x_content .table.notification-table-wrap{
+  width: 100%;
+  float: left;
+}
+.table>tbody>tr>td {
+  border-top: 0px solid #ddd;
+}
+.x_content .table.notification-table-wrap tr {
+  width: 100%;
+  float: left;
+ }
+.x_content .table.notification-table-wrap tr.notification-wrapping {
+   border-top: 1px solid #ddd;
+}
+.x_content .table.notification-table-wrap tr > td > textarea {
+  float: right;
+}
+.table.notification-table-wrap tr > td {
+  float: left;
+  width: 10%;
+}
+.table.notification-table-wrap tr > td:first-child {
+  max-width: 200px;
+  width: 100%;
+}
+.table.notification-table-wrap tr > td:last-child {
+  max-width: 200px;
+  width: 100%;
+  float: right;
+}
+.table.notification-table-wrap tr > td.options {
+    width: 22%;
+}
+.industry_box {
+    border: 1px solid;
+    border-radius: 32px;
+    padding: 12px;
+    color: darkgray;
+}
+.industry_box .remove_industry {
+    cursor: pointer;
+}

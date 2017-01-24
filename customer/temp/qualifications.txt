@@ -1,0 +1,154 @@
+
+_app_=
+
+"{\n                 [\n                  \"skill_id\": 1,\n                  \"level_id\":1,\n                  \"qualifications\": [\n                                {\"qualification\":1},\n                           ],\n                ]\n                }"
+
+"{\n                 [\n                  \"skill_id\": 1,\n                  \"level_id\":1,\n                  \"qualifications\": [\n                                {\"qualification\":1},\n                           ],\n                ]\n                }"
+
+"{\n                 [\n                  \"skill_id\": 1,\n                  \"level_id\":1,\n                  \"qualifications\": [\n                                {\"qualification\":1},\n                           ],\n                ]\n                }"
+
+"{\n                 [\n                  \"skill_id\": 1,\n                  \"level_id\":1,\n                  \"qualifications\": [\n                                {\"qualification\":1},\n                           ],\n                ]\n                }"
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}]
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}]
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}]
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}]
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}]
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}]
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}],
+	"job_id":1
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}],
+	"job_id":0
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}],
+	"job_id":1
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}],
+	"job_id":1
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}],
+	"job_id":1
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}, {
+		"skill_id": 2,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}]
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}, {
+		"skill_id": 2,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}],
+	"job_id":1
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}, {
+		"skill_id": 2,
+		"level_id": 1,
+		"qualification_ids": [3]
+	}],
+	"job_id":1
+}
+
+{
+	"qualifications": [{
+		"skill_id": 1,
+		"level_id": 1,
+		"qualification_ids": [1, 2, 3]
+	}, {
+		"skill_id": 2,
+		"level_id": 1,
+		"qualification_ids": [3]
+	}],
+	"job_id":94
+}

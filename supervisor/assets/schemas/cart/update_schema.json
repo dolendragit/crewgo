@@ -1,0 +1,27 @@
+{
+    "title": "Example Schema",
+    "type": "object",
+    "properties": {
+        "token": {
+            "type": "string"
+        },
+        "updated_items": {
+            "type": "array",
+            "items": {
+                "title": "Product",
+                "type": "object",
+                "properties": {
+                    "variant_id": {
+                        "type": "string"
+                    },
+                    "quantity": {
+                        "type": "string"
+                    }
+                },
+            "uniqueProperties": true,
+                "required": ["variant_id","quantity"]
+            }
+        }
+    },
+    "required": ["updated_items"]
+}

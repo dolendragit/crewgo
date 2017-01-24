@@ -1,0 +1,43 @@
+
+    {
+            "notes": "Here goes some notes.",
+            "job_full_address":  "Greenwich Park",
+            "meeting_full_address": "Gundary",
+            "meeting_lat": "-34.440000000",
+            "meeting_long": "149.960000000",
+            "job_id":54,
+            "skills": [
+                {
+                    "skill_id":1,
+                    "level_id":2,
+                    "quantity":2,
+                    "date": "2016-12-19",
+                    "start_time": "08:00",
+                    "end_time": "14:00",
+                    "breaks": [
+                        {
+                            "start_time": "12:00",
+                            "end_time": "12:15"
+                        },
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                },
+                {
+                    "skill_id":3,
+                    "level_id":3,
+                    "quantity":3,
+                     "date": "2016-12-19",
+                    "start_time": "09:00",
+                    "end_time": "16:00",
+                    "breaks": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                }
+            ]
+        }            

@@ -1,0 +1,14 @@
+## Can be commented out if causes errors, see notes above.
+##Options +FollowSymLinks
+
+## Mod_rewrite in use.
+
+##RewriteEngine On
+ 
+##RewriteRule .* index.php [L]
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond $1 !^(assets|robots\.txt|index\.php|form) [NC]
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+</IfModule>

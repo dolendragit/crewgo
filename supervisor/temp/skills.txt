@@ -1,0 +1,175 @@
+
+[
+                {
+                    "skill_id":1,
+                    "level_id":2,
+                    "quantity":2,
+                    "date": "2016-10-20",
+                    "start_time": "12:00",
+                    "end_time": "14:00",
+                    "breaks": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        },
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                },
+                {
+                    "skill_id":3,
+                    "level_id":3,
+                    "quantity":3,
+                    "date": "2016-10-20",
+                    "start_time": "00:00",
+                    "end_time" : "00:00",
+                    "breaks": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                }
+            ]
+
+[
+                {
+                    "skill_id":1,
+                    "level_id":2,
+                    "quantity":2,
+                    "date": "2016-10-20",
+                    "start_time": "12:00",
+                    "end_time": "14:00",
+                    "breaks": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        },
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                },
+                {
+                    "skill_id":3,
+                    "level_id":3,
+                    "quantity":3,
+                    "date": "2016-10-20",
+                    "start_time": "00:00",
+                    "end_time" : "00:00",
+                    "breaks": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                }
+            ]
+
+[
+                {
+                    "skill_id":1,
+                    "level_id":2,
+                    "quantity":2,
+                    "date": "2016-10-20",
+                    "start_time": "12:00",
+                    "end_time": "14:00",
+                    "breaks": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        },
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                },
+                {
+                    "skill_id":3,
+                    "level_id":3,
+                    "quantity":3,
+                    "date": "2016-10-20",
+                    "start_time": "00:00",
+                    "end_time" : "00:00",
+                    "breaks": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                }
+            ]
+
+[
+                {
+                    "skill_id":1,
+                    "level_id":2,
+                    "quantity":2,
+                    "date": "2016-10-20",
+                    "start_time": "12:00",
+                    "end_time": "14:00",
+                    "breaks": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        },
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                },
+                {
+                    "skill_id":3,
+                    "level_id":3,
+                    "quantity":3,
+                    "date": "2016-10-20",
+                    "start_time": "00:00",
+                    "end_time" : "00:00",
+                    "breaks": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                }
+            ]
+
+[
+                {
+                    "skill_idi":1,
+                    "level_id":2,
+                    "quantity":2,
+                    "date": "2016-10-20",
+                    "start_time": "12:00",
+                    "end_time": "14:00",
+                    "breaks": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        },
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                },
+                {
+                    "skill_idi":3,
+                    "level_id":3,
+                    "quantity":3,
+                    "date": "2016-10-20",
+                    "start_time": "00:00",
+                    "end_time" : "00:00",
+                    "breaks": [
+                        {
+                            "start_time": "00:00",
+                            "end_time": "00:00"
+                        }
+                    ]
+                }
+            ]
